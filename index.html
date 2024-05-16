@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Русы против ящеров</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/logo.webp">
+</head>
+<body>
+	<div class="bg">
+		<div class="bg_message"></div>
+			
+	</div>
+		<div class="box">
+			<div class="box_item">
+				<div class="box_item_param">
+					<h2>Имя героя:</h2>
+					<p id='name'></p>
+
+					<h2>Здоровье:</h2>
+					<p id='health'></p>
+
+					<h2>Броня:</h2>
+					<p id='armor'></p>
+
+					<h2>Сила:</h2>
+					<p id='power'></p>
+
+					<h2>Статус:</h2>
+					<p id='status'></p>
+
+					<h2>Деньги:</h2>
+					<p id='money'></p>
+
+					<h2>Локация:</h2>
+					<p id='gps'></p>
+				</div>
+
+
+				<!-- Набор действий в Байкальске -->
+				<div id="inCity">
+					<div class="action_wrapper">
+						<button id="hospital">Сходить в церковь за лечением</button>
+						<button id="shop">Зайти в магазин за оружием</button>
+						<button id="tavern">Посетить таверну с пивом</button>
+						<button id="travel">Отправиться уничтожать ящеров</button>
+					</div>
+				</div>
+
+				<!-- Набор действий за городом -->
+				<div id="outside">
+					<div class="action_wrapper">
+						<button id="fight">Избить ящера</button>
+						<button id="frend">Попить пива с Виталием сыном Алексея</button>
+						<button id="ribalca">Порыбачить с Олегом Монгольским</button>
+						<button id="toCity">Пойти в город</button>
+					</div>
+				</div>
+
+				<!-- Набор действий в таверне -->
+				<div id="inTavern">
+					<div class="action_wrapper">
+						<button id="getDrink">Выпить святой балтийской водицы</button>
+						<button id="sleep">Поспать</button>
+						<button id="game">Сыграть в армеслинг</button>
+						<button id="tavernToCity">Вернуться в город</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="box_item">
+				<div class="box_item_gps">
+					
+				</div>
+				<div class="box_item_status">
+					
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+</body>
+</html>
