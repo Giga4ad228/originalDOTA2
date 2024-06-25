@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOTA2, оригинал</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/logo.jpg">
+</head>
+<body>
+	<div class="bg">
+		<div class="bg_message"></div>
+			
+	</div>
+		<div class="box">
+			<div class="box_item">
+				<div class="box_item_param">
+					<h2>Имя героя:</h2>
+					<p id='ima'></p>
+
+					<h2>Здоровье:</h2>
+					<p id='health'></p>
+
+					<h2>Броня:</h2>
+					<p id='armor'></p>
+
+					<h2>Урон</h2>
+					<p id='damage'></p>
+
+					<h2>Мана</h2>
+					<p id='mana'></p>
+
+					<h2>Деньги:</h2>
+					<p id='money'></p>
+
+					<h2>Локация:</h2>
+					<p id='gps'></p>
+				</div>
+
+
+				<!-- Набор действий в таверне-->
+				<div id="inCity">
+					<div class="action_wrapper">
+						<button id="pudje">Пудж</button>
+						<button id="axe">Акс</button>
+						<button id="meduza">Медуза</button>
+						<button id="tinker">Тинкер</button>
+					</div>
+				</div>
+
+				<!-- Набор действий на верхней линии -->
+				<div id="inTop">
+					<div class="action_wrapper">
+						<button id="toTopMagaz">Зайти в местую лавку</button>
+						<button id="push">Запушить тавер(У него 2к хп и 50 урона)</button>
+						<button id="gang">Гангануть на мид с шансом 50%</button>
+						<button id="toLine">Выбрать другую линию</button>
+					</div>
+				</div>
+
+				<!-- Набор действий в выборе лайна -->
+				<div id="inAllPick">
+					<div class="action_wrapper">
+						<button id="t">Пойти на топ</button>
+						<button id="mid">Пойти на мид</button>
+						<button id="toBot">Пойти на бот</button>
+						<!-- <button id="toTavern">Вернуться к пику</button> -->
+					</div>
+				</div>
+
+				<!-- Набор предметов в лавке на топе-->
+				<div id="magazOnTop">
+					<div class="action_wrapper">
+						<button id="Blink">Блинк 2250 золота(Увеличивает шанс ганга до 70%)</button>
+						<button id="tp">Трэвела 1к (Тавер не ожидает тп под него и будет иметь 1500хп)</button>
+						<button id="aganim">Аганим 4200 золота (макс.хп плюс 175)</button>
+						<button id="backT">Вернуться на топ</button>
+					</div>
+				</div>
+
+				
+				<!-- Набор предметов на миду -->
+				<div id="onMid">
+					<div class="action_wrapper">
+						<button id="magazOnMid">Лавка на миду</button>
+						<button id="feed">Фидить</button>
+						<button id="sf">Дуэль с вражеским Дурачьё на МК(у него 1000хп и 100 урона)</button>
+						<button id="backAllPick">Выбрать другой лайн</button>
+					</div>
+				</div>
+
+				
+			<!-- Набор предметов в лавке на миду-->
+			<div id="magazOnMidle">
+				<div class="action_wrapper">
+					<button id="mom">Момчик 1900 золота (Даёт 30 хила за удар)</button>
+					<button id="bash">Башик 2875 золота (Урон увеличивается на 30)</button>
+					<button id="radic">Радик 4700 золота (шанс уклониться 30%)</button>
+					<button id="backM">Вернуться на мид</button>
+				</div>
+			</div>
+
+			<!-- Набор предметов на боту-->
+			<div id="bot">
+				<div class="action_wrapper">
+					<button id="toLocalMagaz">Пойти в местную лавку</button>
+					<button id="Farm">Пофармить крипов (10 золота за одного)</button>
+					<button id="finalBatle">Снести трон(у него 10к хп и 25 урона)</button>
+					<button id="backToOtherLine">Другой лайн</button>
+				</div>
+			</div>
+
+			<!-- Набор предметов в лавке на боту-->
+			<div id="magazOnBot">
+				<div class="action_wrapper">
+					<button id="Salve">Healing Salve 100 золота (хилит броню, ману, хп)</button>
+					<button id="Msl">Мэджик слейер 2815 золота(маны тратится на 10 меньше за удар)</button>
+					<button id="midas">Мидас 2220 золота(с крипов даётся тепернь 26 золота)</button>
+					<button id="backB">Вернуться на бот</button>
+				</div>
+			</div>
+			</div>
+
+
+
+			<div class="box_item">
+				<div class="box_item_gps">
+					
+				</div>
+				<div class="box_item_status">
+					
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+</body>
+</html>
